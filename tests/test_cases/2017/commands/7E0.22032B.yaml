@@ -1,0 +1,16 @@
+command_id: 7E0.22032B
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80462032B00
+  expected_values:
+    FORD_ACC_POS: 0
+    FORD_[ECU] Accelerator pedal position: 0
+- response: 7E80462032B1E
+  expected_values:
+    FORD_ACC_POS: 15
+    FORD_[ECU] Accelerator pedal position: 15
+- response: 7E80462032B46
+  expected_values:
+    FORD_ACC_POS: 35
+    FORD_[ECU] Accelerator pedal position: 35

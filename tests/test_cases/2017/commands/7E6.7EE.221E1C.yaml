@@ -1,0 +1,13 @@
+command_id: 7E6.7EE.221E1C
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EE05621E1C013E
+  expected_values:
+    FORD_TT: 19.875
+- response: 7EE05621E1C0143
+  expected_values:
+    FORD_TT: 20.1875
+- response: 7EE05621E1C0150
+  expected_values:
+    FORD_TT: 21
