@@ -1,0 +1,12 @@
+command_id: 7E0.220316
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8056203162FF5
+  expected_values:
+    FORD_VCT_INT_DUTY: 37.46643
+    FORD_[ECU] VCT intake duty cycle: 37.46643
+- response: '7E8056203166666'
+  expected_values:
+    FORD_VCT_INT_DUTY: 79.99878
+    FORD_[ECU] VCT intake duty cycle: 79.99878

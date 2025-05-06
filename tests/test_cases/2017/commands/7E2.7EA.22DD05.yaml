@@ -1,0 +1,7 @@
+command_id: 7E2.7EA.22DD05
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EA0462DD05FF
+  expected_values:
+    FORD_AAT: 215

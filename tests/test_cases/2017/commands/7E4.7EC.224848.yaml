@@ -1,0 +1,13 @@
+command_id: 7E4.7EC.224848
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7EC0562484801BB
+  expected_values:
+    FORD_HVBAT_KWH: 0.886
+- response: 7EC0562484801C9
+  expected_values:
+    FORD_HVBAT_KWH: 0.914
+- response: 7EC0562484801EE
+  expected_values:
+    FORD_HVBAT_KWH: 0.988

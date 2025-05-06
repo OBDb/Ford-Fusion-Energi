@@ -1,0 +1,16 @@
+command_id: 7E0.220393
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E805620393018F
+  expected_values:
+    FORD_AC_P: 115.74012
+    FORD_[ECU] AC Pressure: 115.74012
+- response: 7E80562039301AE
+  expected_values:
+    FORD_AC_P: 124.73246
+    FORD_[ECU] AC Pressure: 124.73246
+- response: 7E80562039301B1
+  expected_values:
+    FORD_AC_P: 125.60269
+    FORD_[ECU] AC Pressure: 125.60269
