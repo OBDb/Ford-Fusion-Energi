@@ -1,0 +1,11 @@
+command_id: 7E0.2203BC
+test_cases:
+- response: 7E8056203BCFDD1
+  expected_values:
+    FORD_VCT_INT_DES: 0
+- response: 7E8056203BCFDDC
+  expected_values:
+    FORD_VCT_INT_DES: 0
+- response: 7E8056203BCFE2E
+  expected_values:
+    FORD_VCT_INT_DES: 0
