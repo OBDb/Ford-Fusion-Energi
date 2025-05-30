@@ -1,0 +1,11 @@
+command_id: 7E0.22031A
+test_cases:
+- response: 7E80562031AFFDB
+  expected_values:
+    FORD_VCT_INT_ERR: 50
+- response: 7E80562031AFFF8
+  expected_values:
+    FORD_VCT_INT_ERR: 50
+- response: 7E80562031AFFFC
+  expected_values:
+    FORD_VCT_INT_ERR: 50
