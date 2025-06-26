@@ -1,20 +1,30 @@
 command_id: 7E0.7E8.221E1C
 test_cases:
-- response: 7E805621E1C00F8
-  expected_values:
+- expected_values:
     FORD_TOT: 15.5
-- response: |-
+  response: 7E805621E1C00F8
+- expected_values:
+    FORD_TOT: 15.5
+  response: |-
     7E805621E1C00F8
     7EE05621E1C01E1
-  expected_values:
+- expected_values:
     FORD_TOT: 15.5
-- response: |-
-    7EE05621E1C01C6
+  response: |-
     7E805621E1C00F8
-  expected_values:
+    7EE05621E1C0366
+- expected_values:
     FORD_TOT: 15.5
-- response: |-
-    7EE05621E1C01D3
+  response: |-
+    7EE05621E1C0146
     7E805621E1C00F8
-  expected_values:
+- expected_values:
     FORD_TOT: 15.5
+  response: |-
+    7EE05621E1C020C
+    7E805621E1C00F8
+- expected_values:
+    FORD_TOT: 15.5
+  response: |-
+    7EE05621E1C0351
+    7E805621E1C00F8
