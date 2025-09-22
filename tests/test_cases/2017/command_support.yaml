@@ -52,6 +52,7 @@ supported_commands_by_ecu:
   - 0153:EVAP_VPA
   - 0154:EVAP_VP_WIDE
   - 0167:ECT_1,ECT_1_SUP,ECT_2,ECT_2_SUP
+  - 7E0.010D:VSS
   - 7E0.0131:CLR_DIST
   - 7E0.0142:VPWR
   - 7E0.220301:FORD_MAP_V
@@ -92,6 +93,8 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 015B:BAT_SOC
   - 7E4.7EC.010D
+  - 7E4.7EC.0131
+  - 7E4.7EC.0142
   - 7E4.7EC.224800|fc=1:FORD_HVBAT_T
   - 7E4.7EC.224801|fc=1:FORD_HVBAT_SOC
   - 7E4.7EC.22480D|fc=1:FORD_HVBAT_V
@@ -112,6 +115,7 @@ supported_commands_by_ecu:
   - 0131:CLR_DIST
   - 0142:VPWR
   - 0149:APP_D
+  - 7E6.7EE.0131
   - 7E6.7EE.221E1C|fc=1:FORD_TT
 unsupported_commands_by_ecu:
   "720":
@@ -135,7 +139,6 @@ unsupported_commands_by_ecu:
   - 7DF.221310:FORD_EOT
   - 7DF.22F45C:FORD_EOP
   "7E0":
-  - 7E0.010D:VSS
   - 7E0.22030F:FORD_CL
   - 7E0.220317:FORD_VCT_EXH_DUTY
   - 7E0.220319:FORD_VCT_EXH_ACT
@@ -150,3 +153,5 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.221E1C:FORD_TOT
   "7E4":
   - 7E4.7EC.22490C|fc=1:FORD_HVBAT_SOH
+  "7E6":
+  - 7E6.7EE.010D

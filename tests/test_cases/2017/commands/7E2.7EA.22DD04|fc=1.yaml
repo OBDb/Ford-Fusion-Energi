@@ -1,5 +1,8 @@
 command_id: 7E2.7EA.22DD04|fc=1
 test_cases:
 - expected_values:
-    FORD_IAT: 23
-  response: 7EA0462DD043F
+    FORD_IAT: 22
+  response: 7EA0462DD043E
+- expected_values:
+    FORD_IAT: 51
+  response: 7EA0462DD045B

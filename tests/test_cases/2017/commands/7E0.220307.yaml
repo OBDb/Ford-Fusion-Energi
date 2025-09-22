@@ -4,8 +4,11 @@ test_cases:
     FORD_LPFP_DUTY: 40.19775
   response: '7E8056203073374'
 - expected_values:
-    FORD_LPFP_DUTY: 40.20996
-  response: '7E8056203073378'
+    FORD_LPFP_DUTY: 40.62195
+  response: 7E80562030733FF
 - expected_values:
-    FORD_LPFP_DUTY: 40.35339
-  response: 7E80562030733A7
+    FORD_LPFP_DUTY: 40.625
+  response: '7E8056203073400'
+- expected_values:
+    FORD_LPFP_DUTY: 75
+  response: '7E8056203076000'
