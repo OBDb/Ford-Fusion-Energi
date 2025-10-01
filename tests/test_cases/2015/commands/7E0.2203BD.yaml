@@ -14,4 +14,7 @@ test_cases:
   response: 7E8056203BDFFAF
 - expected_values:
     FORD_CL_LC: 5
+  response: 7E8056203BDFFB0
+- expected_values:
+    FORD_CL_LC: 5
   response: 7E8056203BDFFB7
