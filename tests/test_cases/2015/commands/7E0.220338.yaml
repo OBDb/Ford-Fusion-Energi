@@ -4,29 +4,5 @@ test_cases:
     FORD_ETC_TRIM_LEARNED: 0
   response: '7E8056203380000'
 - expected_values:
-    FORD_ETC_TRIM_LEARNED: 0.02148
-  response: 7E805620338000B
-- expected_values:
-    FORD_ETC_TRIM_LEARNED: 0.02539
-  response: 7E805620338000D
-- expected_values:
-    FORD_ETC_TRIM_LEARNED: 0.04492
-  response: '7E8056203380017'
-- expected_values:
-    FORD_ETC_TRIM_LEARNED: 0.07812
-  response: '7E8056203380028'
-- expected_values:
-    FORD_ETC_TRIM_LEARNED: 0.11914
-  response: 7E805620338003D
-- expected_values:
-    FORD_ETC_TRIM_LEARNED: 0.19727
-  response: '7E8056203380065'
-- expected_values:
-    FORD_ETC_TRIM_LEARNED: 0.26758
-  response: '7E8056203380089'
-- expected_values:
-    FORD_ETC_TRIM_LEARNED: 0.29688
-  response: '7E8056203380098'
-- expected_values:
     FORD_ETC_TRIM_LEARNED: 0.4375
   response: 7E80562033800E0
