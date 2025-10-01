@@ -12,6 +12,11 @@ test_cases:
     7E804621E2346
     7EE04621E2346
 - expected_values:
+    FORD_GEAR_SHFT: NEUTRAL
+  response: |-
+    7EE04621E2332
+    7E804621E2332
+- expected_values:
     FORD_GEAR_SHFT: REVERSE
   response: |-
     7EE04621E233C
