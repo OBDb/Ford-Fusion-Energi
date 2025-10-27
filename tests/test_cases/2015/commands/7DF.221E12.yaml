@@ -44,5 +44,5 @@ test_cases:
     FORD_GEAR_V2: 255
   response: |-
     7EE04621E1228
-    7EA04621E12FF
     7E804621E1201
+    7EA04621E12FF

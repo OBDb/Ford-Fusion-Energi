@@ -1,32 +1,14 @@
 command_id: 7E0.7E8.2203E8
 test_cases:
 - expected_values:
-    FORD_OAR: 0.47003
-  response: 7E8056203E81E15
-- expected_values:
-    FORD_OAR: 0.86707
-  response: 7E8056203E8377E
-- expected_values:
-    FORD_OAR: 0.87604
-  response: 7E8056203E83811
-- expected_values:
-    FORD_OAR: 0.95056
-  response: 7E8056203E83CD6
+    FORD_OAR: 0.00903
+  response: 7E8056203E80094
 - expected_values:
     FORD_OAR: 1
   response: 7E8056203E84000
 - expected_values:
     FORD_OAR: 1
-  response: 7E8056203E8E003
+  response: 7E8056203E8ECFF
 - expected_values:
     FORD_OAR: 1
-  response: 7E8056203E8E758
-- expected_values:
-    FORD_OAR: 1
-  response: 7E8056203E8E78C
-- expected_values:
-    FORD_OAR: 1
-  response: 7E8056203E8E8AE
-- expected_values:
-    FORD_OAR: 1
-  response: 7E8056203E8F4EC
+  response: 7E8056203E8FD2C
