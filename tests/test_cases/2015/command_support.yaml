@@ -1,5 +1,7 @@
 model_year: 2015
 supported_commands_by_ecu:
+  "720":
+  - 720.728.22404C:FORD_ODO_V3
   "726":
   - 726.72E.222813:FORD_TP_FL
   - 726.72E.222814:FORD_TP_FR
@@ -125,7 +127,6 @@ supported_commands_by_ecu:
   - 7E6.7EE.221E1C|fc=1:FORD_TT
 unsupported_commands_by_ecu:
   "720":
-  - 720.728.22404C:FORD_ODO_V3
   - 720.728.226185:FORD_FLI_V2
   - 720.728.2261A5:FORD_TPMS_WARN
   - 720.728.22DD01:FORD_ODO_TRIP
