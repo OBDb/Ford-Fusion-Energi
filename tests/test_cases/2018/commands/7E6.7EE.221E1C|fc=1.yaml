@@ -7,8 +7,8 @@ test_cases:
     FUSIONENERGI_TT: 15.9375
   response: 7EE05621E1C00FF
 - expected_values:
-    FUSIONENERGI_TT: 16.0
+    FUSIONENERGI_TT: 16
   response: 7EE05621E1C0100
 - expected_values:
-    FUSIONENERGI_TT: 48.0
+    FUSIONENERGI_TT: 48
   response: 7EE05621E1C0300

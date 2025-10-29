@@ -2,10 +2,10 @@ command_id: 7E0.7E8.220316
 test_cases:
 - expected_values:
     FUSIONENERGI_VCT_INT_DUTY: 0
-  response: 7E8056203160000
+  response: '7E8056203160000'
 - expected_values:
     FUSIONENERGI_VCT_INT_DUTY: 46.8689
   response: 7E8056203163BFE
 - expected_values:
     FUSIONENERGI_VCT_INT_DUTY: 79.99878
-  response: 7E8056203166666
+  response: '7E8056203166666'

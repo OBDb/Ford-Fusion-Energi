@@ -2,7 +2,7 @@ command_id: 7E0.7E8.220301
 test_cases:
 - expected_values:
     FUSIONENERGI_MAP_V: 1.0166
-  response: 7E8056203010411
+  response: '7E8056203010411'
 - expected_values:
     FUSIONENERGI_MAP_V: 1.74902
   response: 7E80562030106FF
@@ -11,4 +11,4 @@ test_cases:
   response: 7E8056203010D00
 - expected_values:
     FUSIONENERGI_MAP_V: 4.00293
-  response: 7E8056203011003
+  response: '7E8056203011003'

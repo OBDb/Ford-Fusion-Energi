@@ -3,8 +3,8 @@ test_cases:
 - expected_values:
     FUSIONENERGI_BARO: 13.34198
     FUSIONENERGI_[ECU] BARO: 13.34198
-  response: 7E8056203530170
+  response: '7E8056203530170'
 - expected_values:
     FUSIONENERGI_BARO: 14.68343
     FUSIONENERGI_[ECU] BARO: 14.68343
-  response: 7E8056203530195
+  response: '7E8056203530195'

@@ -3,12 +3,12 @@ test_cases:
 - expected_values:
     FUSIONENERGI_TP_RR: 28.05
     FUSIONENERGI_TP_RRO: 28.05
-  response: 72E056228150231
+  response: '72E056228150231'
 - expected_values:
     FUSIONENERGI_TP_RR: 37.8
     FUSIONENERGI_TP_RRO: 37.8
   response: 72E0562281502F4
 - expected_values:
-    FUSIONENERGI_TP_RR: 150.0
-    FUSIONENERGI_TP_RRO: 150.0
+    FUSIONENERGI_TP_RR: 150
+    FUSIONENERGI_TP_RRO: 150
   response: 72E056228150BB8

@@ -8,7 +8,7 @@ test_cases:
   response: 7E80562030733FF
 - expected_values:
     FUSIONENERGI_LPFP_DUTY: 40.625
-  response: 7E8056203073400
+  response: '7E8056203073400'
 - expected_values:
-    FUSIONENERGI_LPFP_DUTY: 75.0
-  response: 7E8056203076000
+    FUSIONENERGI_LPFP_DUTY: 75
+  response: '7E8056203076000'

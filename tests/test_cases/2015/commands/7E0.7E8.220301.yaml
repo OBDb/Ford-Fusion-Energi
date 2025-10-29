@@ -11,4 +11,4 @@ test_cases:
   response: 7E8056203010DFF
 - expected_values:
     FUSIONENERGI_MAP_V: 4.00293
-  response: 7E8056203011003
+  response: '7E8056203011003'
