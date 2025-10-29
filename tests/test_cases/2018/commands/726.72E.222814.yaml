@@ -1,8 +1,8 @@
 command_id: 726.72E.222814
 test_cases:
 - expected_values:
-    FORD_TP_FR: 29.5
+    FUSIONENERGI_TP_FR: 29.5
   response: 72E05622814024E
 - expected_values:
-    FORD_TP_FR: 32.55
+    FUSIONENERGI_TP_FR: 32.55
   response: 72E05622814028B

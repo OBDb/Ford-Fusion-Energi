@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.220301
 test_cases:
 - expected_values:
-    FORD_MAP_V: 1.0166
-  response: '7E8056203010411'
+    FUSIONENERGI_MAP_V: 1.0166
+  response: 7E8056203010411
 - expected_values:
-    FORD_MAP_V: 1.74902
+    FUSIONENERGI_MAP_V: 1.74902
   response: 7E80562030106FF
 - expected_values:
-    FORD_MAP_V: 3.25
+    FUSIONENERGI_MAP_V: 3.25
   response: 7E8056203010D00
 - expected_values:
-    FORD_MAP_V: 4.00293
-  response: '7E8056203011003'
+    FUSIONENERGI_MAP_V: 4.00293
+  response: 7E8056203011003

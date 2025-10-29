@@ -1,54 +1,62 @@
 command_id: 7E6.7EE.221E1C|fc=1
 test_cases:
 - expected_values:
-    FORD_TT: 4.125
+    FUSIONENERGI_TOT: 15.5
+    FUSIONENERGI_TT: 4.125
   response: |-
     7E805621E1C00F8
     7EE05621E1C0042
 - expected_values:
-    FORD_TT: 15
+    FUSIONENERGI_TOT: 15.5
+    FUSIONENERGI_TT: 15.0
   response: |-
     7E805621E1C00F8
     7EE05621E1C00F0
 - expected_values:
-    FORD_TT: 16.6875
+    FUSIONENERGI_TOT: 15.5
+    FUSIONENERGI_TT: 16.6875
   response: |-
     7E805621E1C00F8
     7EE05621E1C010B
 - expected_values:
-    FORD_TT: 58.6875
+    FUSIONENERGI_TOT: 15.5
+    FUSIONENERGI_TT: 58.6875
   response: |-
     7E805621E1C00F8
     7EE05621E1C03AB
 - expected_values:
-    FORD_TT: 4.125
+    FUSIONENERGI_TT: 4.125
   response: 7EE05621E1C0042
 - expected_values:
-    FORD_TT: 7.625
+    FUSIONENERGI_TT: 7.625
+    FUSIONENERGI_TOT: 15.5
   response: |-
     7EE05621E1C007A
     7E805621E1C00F8
 - expected_values:
-    FORD_TT: 15.9375
+    FUSIONENERGI_TT: 15.9375
   response: 7EE05621E1C00FF
 - expected_values:
-    FORD_TT: 16
+    FUSIONENERGI_TT: 16.0
   response: 7EE05621E1C0100
 - expected_values:
-    FORD_TT: 16.5
+    FUSIONENERGI_TT: 16.5
+    FUSIONENERGI_TOT: 15.5
   response: |-
     7EE05621E1C0108
     7E805621E1C00F8
 - expected_values:
-    FORD_TT: 31.6875
+    FUSIONENERGI_TT: 31.6875
+    FUSIONENERGI_TOT: 15.5
   response: |-
     7EE05621E1C01FB
     7E805621E1C00F8
 - expected_values:
-    FORD_TT: 48.0625
+    FUSIONENERGI_TT: 48.0625
   response: 7EE05621E1C0301
 - expected_values:
-    FORD_TT: 48.625
+    FUSIONENERGI_TT: 48.625
+    FUSIONENERGI_TOT: 15.5
   response: |-
     7EE05621E1C030A
     7E805621E1C00F8

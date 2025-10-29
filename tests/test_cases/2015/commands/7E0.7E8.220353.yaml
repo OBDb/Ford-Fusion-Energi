@@ -1,10 +1,10 @@
 command_id: 7E0.7E8.220353
 test_cases:
 - expected_values:
-    FORD_BARO: 13.34198
-    FORD_[ECU] Baro: 13.34198
-  response: '7E8056203530170'
+    FUSIONENERGI_BARO: 13.34198
+    FUSIONENERGI_[ECU] BARO: 13.34198
+  response: 7E8056203530170
 - expected_values:
-    FORD_BARO: 14.68343
-    FORD_[ECU] Baro: 14.68343
-  response: '7E8056203530195'
+    FUSIONENERGI_BARO: 14.68343
+    FUSIONENERGI_[ECU] BARO: 14.68343
+  response: 7E8056203530195
