@@ -5,9 +5,9 @@ test_cases:
     FORD_[ECU] CL Lambda Corr: 0
   response: 7E8056203BD0000
 - expected_values:
-    FORD_CL_LC: -0.01111
+    FORD_CL_LC: -0.01904
     FORD_[ECU] CL Lambda Corr: 5
-  response: 7E8056203BDFFA5
+  response: 7E8056203BDFF64
 - expected_values:
     FORD_CL_LC: -0.00964
     FORD_[ECU] CL Lambda Corr: 5
