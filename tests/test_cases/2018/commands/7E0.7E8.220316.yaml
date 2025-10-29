@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.220316
 test_cases:
 - expected_values:
-    FORD_VCT_INT_DUTY: 0
-  response: '7E8056203160000'
+    FUSIONENERGI_VCT_INT_DUTY: 0
+  response: 7E8056203160000
 - expected_values:
-    FORD_VCT_INT_DUTY: 32.02515
+    FUSIONENERGI_VCT_INT_DUTY: 32.02515
   response: 7E80562031628FE
 - expected_values:
-    FORD_VCT_INT_DUTY: 79.99878
-  response: '7E8056203166666'
+    FUSIONENERGI_VCT_INT_DUTY: 79.99878
+  response: 7E8056203166666

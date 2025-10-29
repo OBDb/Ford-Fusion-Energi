@@ -1,14 +1,14 @@
 command_id: 7E0.220393
 test_cases:
 - expected_values:
-    FORD_AC_P: 60.91585
+    FUSIONENERGI_AC_P: 60.91585
   response: 7E80562039300D2
 - expected_values:
-    FORD_AC_P: 74.25933
-  response: '7E8056203930100'
+    FUSIONENERGI_AC_P: 74.25933
+  response: 7E8056203930100
 - expected_values:
-    FORD_AC_P: 222.48791
+    FUSIONENERGI_AC_P: 222.48791
   response: 7E80562039302FF
 - expected_values:
-    FORD_AC_P: 225.67874
+    FUSIONENERGI_AC_P: 225.67874
   response: 7E805620393030A

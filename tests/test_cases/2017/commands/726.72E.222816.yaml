@@ -1,18 +1,18 @@
 command_id: 726.72E.222816
 test_cases:
 - expected_values:
-    FORD_TP_RL: 14.8
-    FORD_TP_RLO: 14.8
-  response: '72E056228160128'
+    FUSIONENERGI_TP_RL: 14.8
+    FUSIONENERGI_TP_RLO: 14.8
+  response: 72E056228160128
 - expected_values:
-    FORD_TP_RL: 25.55
-    FORD_TP_RLO: 25.55
+    FUSIONENERGI_TP_RL: 25.55
+    FUSIONENERGI_TP_RLO: 25.55
   response: 72E0562281601FF
 - expected_values:
-    FORD_TP_RL: 25.7
-    FORD_TP_RLO: 25.7
-  response: '72E056228160202'
+    FUSIONENERGI_TP_RL: 25.7
+    FUSIONENERGI_TP_RLO: 25.7
+  response: 72E056228160202
 - expected_values:
-    FORD_TP_RL: 150
-    FORD_TP_RLO: 150
+    FUSIONENERGI_TP_RL: 150.0
+    FUSIONENERGI_TP_RLO: 150.0
   response: 72E056228160BB8

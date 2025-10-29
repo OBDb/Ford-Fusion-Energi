@@ -1,8 +1,8 @@
 command_id: 7E2.7EA.22DD04|fc=1
 test_cases:
 - expected_values:
-    FORD_IAT: 7
+    FUSIONENERGI_IAT: 7.0
   response: 7EA0462DD042F
 - expected_values:
-    FORD_IAT: 39
+    FUSIONENERGI_IAT: 39.0
   response: 7EA0462DD044F

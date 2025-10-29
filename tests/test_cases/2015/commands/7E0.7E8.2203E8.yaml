@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2203E8
 test_cases:
 - expected_values:
-    FORD_OAR: 0.00903
+    FUSIONENERGI_OAR: 0.00903
   response: 7E8056203E80094
 - expected_values:
-    FORD_OAR: 1
+    FUSIONENERGI_OAR: 1
   response: 7E8056203E84000
 - expected_values:
-    FORD_OAR: 1
+    FUSIONENERGI_OAR: 1
   response: 7E8056203E8ECFF
 - expected_values:
-    FORD_OAR: 1
+    FUSIONENERGI_OAR: 1
   response: 7E8056203E8FD2C

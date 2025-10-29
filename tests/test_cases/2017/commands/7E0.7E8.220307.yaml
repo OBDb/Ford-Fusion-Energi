@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.220307
 test_cases:
 - expected_values:
-    FORD_LPFP_DUTY: 40.07263
+    FUSIONENERGI_LPFP_DUTY: 40.07263
   response: 7E805620307334B
 - expected_values:
-    FORD_LPFP_DUTY: 40.62195
+    FUSIONENERGI_LPFP_DUTY: 40.62195
   response: 7E80562030733FF
 - expected_values:
-    FORD_LPFP_DUTY: 40.625
-  response: '7E8056203073400'
+    FUSIONENERGI_LPFP_DUTY: 40.625
+  response: 7E8056203073400
 - expected_values:
-    FORD_LPFP_DUTY: 75
-  response: '7E8056203076000'
+    FUSIONENERGI_LPFP_DUTY: 75.0
+  response: 7E8056203076000
