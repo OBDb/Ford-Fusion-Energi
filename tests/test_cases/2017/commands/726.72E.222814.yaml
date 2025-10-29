@@ -2,13 +2,13 @@ command_id: 726.72E.222814
 test_cases:
 - expected_values:
     FUSIONENERGI_TP_FR: 27.3
-  response: 72E056228140222
+  response: '72E056228140222'
 - expected_values:
     FUSIONENERGI_TP_FR: 38.3
   response: 72E0562281402FE
 - expected_values:
     FUSIONENERGI_TP_FR: 38.4
-  response: 72E056228140300
+  response: '72E056228140300'
 - expected_values:
-    FUSIONENERGI_TP_FR: 150.0
+    FUSIONENERGI_TP_FR: 150
   response: 72E056228140BB8

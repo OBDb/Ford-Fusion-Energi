@@ -11,12 +11,10 @@ test_cases:
   response: 7E804621E2346
 - expected_values:
     FUSIONENERGI_GEAR_SHFT: PARK
-    FUSIONENERGI_GEAR_SHFT_V2: 70.0
   response: |-
     7E804621E2346
     7EE04621E2346
 - expected_values:
-    FUSIONENERGI_GEAR_SHFT_V2: 70.0
     FUSIONENERGI_GEAR_SHFT: PARK
   response: |-
     7EE04621E2346

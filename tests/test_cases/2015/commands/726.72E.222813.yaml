@@ -8,4 +8,4 @@ test_cases:
   response: 72E0562281302FE
 - expected_values:
     FUSIONENERGI_TP_FL: 38.4
-  response: 72E056228130300
+  response: '72E056228130300'

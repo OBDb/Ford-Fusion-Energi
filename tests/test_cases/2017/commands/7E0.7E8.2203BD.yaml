@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2203BD
 test_cases:
 - expected_values:
-    FUSIONENERGI_CL_LC: 0.0
-    FUSIONENERGI_[ECU] CL LAMBDA CORR: 0.0
+    FUSIONENERGI_CL_LC: 0
+    FUSIONENERGI_[ECU] CL LAMBDA CORR: 0
   response: 7E8056203BD0000
 - expected_values:
     FUSIONENERGI_CL_LC: 0.03088

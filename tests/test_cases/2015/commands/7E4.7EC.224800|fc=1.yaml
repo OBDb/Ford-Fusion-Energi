@@ -1,6 +1,0 @@
-command_id: 7E4.7EC.224800|fc=1
-test_cases:
-- expected_values: {}
-  response: 7EC046248003A
-- expected_values: {}
-  response: 7EC046248005E

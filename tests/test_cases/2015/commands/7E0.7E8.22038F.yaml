@@ -5,8 +5,8 @@ test_cases:
     FUSIONENERGI_[ECU] ECT: 6.28125
   response: 7E80562038F0192
 - expected_values:
-    FUSIONENERGI_ECT: 16.0
-    FUSIONENERGI_[ECU] ECT: 16.0
+    FUSIONENERGI_ECT: 16
+    FUSIONENERGI_[ECU] ECT: 16
   response: 7E80562038F0400
 - expected_values:
     FUSIONENERGI_ECT: 19.98438

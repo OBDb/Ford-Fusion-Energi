@@ -3,7 +3,7 @@ test_cases:
 - expected_values:
     FUSIONENERGI_TP_RL: 25.9
     FUSIONENERGI_TP_RLO: 25.9
-  response: 72E056228160206
+  response: '72E056228160206'
 - expected_values:
     FUSIONENERGI_TP_RL: 37.4
     FUSIONENERGI_TP_RLO: 37.4

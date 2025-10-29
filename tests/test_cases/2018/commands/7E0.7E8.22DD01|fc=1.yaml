@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22DD01|fc=1
 test_cases:
 - expected_values:
-    FUSIONENERGI_ODO: 152600.0
+    FUSIONENERGI_ODO: 152600
   response: 7E80662DD01025418
 - expected_values:
-    FUSIONENERGI_ODO: 152780.0
+    FUSIONENERGI_ODO: 152780
   response: 7E80662DD010254CC
