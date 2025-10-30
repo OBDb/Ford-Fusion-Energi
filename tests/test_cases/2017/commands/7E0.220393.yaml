@@ -1,8 +1,8 @@
 command_id: 7E0.220393
 test_cases:
 - expected_values:
-    FUSIONENERGI_AC_P: 97.75544
-  response: '7E8056203930151'
+    FUSIONENERGI_AC_P: 83.25167
+  response: 7E805620393011F
 - expected_values:
     FUSIONENERGI_AC_P: 148.51865
   response: '7E8056203930200'
