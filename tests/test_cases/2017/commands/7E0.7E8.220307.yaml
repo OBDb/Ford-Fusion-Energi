@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220307
 test_cases:
 - expected_values:
-    FUSIONENERGI_LPFP_DUTY: 40.07263
-  response: 7E805620307334B
+    FUSIONENERGI_LPFP_DUTY: 39.86511
+  response: '7E8056203073307'
 - expected_values:
     FUSIONENERGI_LPFP_DUTY: 40.62195
   response: 7E80562030733FF
