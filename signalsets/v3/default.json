@@ -1,21 +1,21 @@
 { "commands": [
-{ "hdr": "720", "cmd": {"22": "6185"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "720", "dbg": true, "cmd": {"22": "6185"}, "freq": 1,
   "signals": [
     {"id": "FUSIONENERGI_FLI_V2", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "720", "cmd": {"22": "61A5"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "720", "dbg": true, "cmd": {"22": "61A5"}, "freq": 30,
   "signals": [
     {"id": "FUSIONENERGI_TPMS_WARN", "path": "Tires", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Tire pressure warning indicator"}
   ]},
-{ "hdr": "720", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "720", "dbg": true, "cmd": {"22": "DD01"}, "freq": 30,
   "signals": [
     {"id": "FUSIONENERGI_ODO_TRIP", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Trip distance"}
   ]},
-{ "hdr": "720", "rax": "728", "cmd": {"22": "404C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "720", "rax": "728", "cmd": {"22": "404C"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "FUSIONENERGI_ODO_V3", "path": "Trips", "fmt": { "len": 24, "max": 1677721, "div": 10, "unit": "kilometers" }, "name": "Odometer (instrument panel)", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "726", "cmd": {"22": "DD01"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "726", "dbg": true, "cmd": {"22": "DD01"}, "freq": 5,
   "signals": [
     {"id": "FUSIONENERGI_ODO_V2", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer (instrument panel)", "suggestedMetric": "odometer"}
   ]},
@@ -45,15 +45,15 @@
   "signals": [
     {"id": "FUSIONENERGI_TP_RLI", "path": "Tires", "fmt": { "len": 16, "max": 3276, "div": 20, "unit": "psi" }, "name": "Rear left inner tire pressure"}
   ]},
-{ "hdr": "760", "cmd": {"22": "2B00"}, "freq": 3, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "760", "dbg": true, "cmd": {"22": "2B00"}, "freq": 3,
   "signals": [
     {"id": "FUSIONENERGI_PARKING_BRAKE", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Parking brake state"}
   ]},
-{ "hdr": "760", "cmd": {"22": "3201"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "760", "dbg": true, "cmd": {"22": "3201"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_STEER_ANGLE", "path": "Control", "fmt": { "len": 8, "max": 790, "min": -790, "mul": 6.25, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
   ]},
-{ "hdr": "764", "cmd": {"22": "A224"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "764", "dbg": true, "cmd": {"22": "A224"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_CC_TGT_VSS", "path": "Cruise control", "fmt": { "len": 16, "max": 736, "min": -736, "mul": 3.6, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Target vehicle speed", "description": "The speed of the vehicle ahead of you."}
   ]},
@@ -73,34 +73,34 @@
   "signals": [
     {"id": "FUSIONENERGI_FLI_V3", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel level (alternative)"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0317"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0317"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_VCT_EXH_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "Vct exhaust camshaft solenoid duty cycle"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0319"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0319"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_VCT_EXH_ACT", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "Vct exhaust camshaft actual"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "031B"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "031B"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_VCT_EXH_ERR", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "Vct exhaust camshaft error"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "0324"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "0324"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_HPFP_V",                    "fmt": { "len": 16, "max": 5,                      "div": 204.6, "unit": "volts" }, "name": "High pressure fuel rail sensor voltage"},
     {"id": "FUSIONENERGI_[ECU] HPFP SENSOR VOLTAGE", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855,               "unit": "volts" }, "name": "High pressure fuel rail sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "033C"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "033C"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_TIP_V",                    "fmt": { "len": 16, "max": 5,                      "div": 204.8, "unit": "volts" }, "name": "Throttle inlet pressure sensor voltage"},
     {"id": "FUSIONENERGI_[ECU] TIP SENSOR VOLTAGE", "fmt": { "len": 16, "max": 5, "mul": 0.0048828125,               "unit": "volts" }, "name": "Throttle inlet pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "033E"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "033E"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_TIP_ABS",              "fmt": { "len": 16, "max": 60,                      "div": 903.8107848, "unit": "psi" }, "name": "Throttle inlet pressure absolute"},
     {"id": "FUSIONENERGI_[ECU] TIP ACTUAL ABS", "fmt": { "len": 16, "max": 60, "mul": 0.0011064263,                     "unit": "psi" }, "name": "Throttle inlet pressure absolute"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "035A"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "035A"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_BARO_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
   ]},
@@ -108,15 +108,15 @@
   "signals": [
     {"id": "FUSIONENERGI_AC_P", "fmt": { "len": 16, "max": 1000, "min": -100, "mul": 0.2900754962, "unit": "psi" }, "name": "Air conditioning compressor pressure"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03BB"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "03BB"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_VCT_EXH_DES", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "Vct exhaust cam, desired"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03CA"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "03CA"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_MCT", "fmt": { "len": 8, "max": 148.889, "unit": "celsius" }, "name": "Manifold charge temperature"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "03DC"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "03DC"}, "freq": 0.25,
   "signals": [
     {"id": "FUSIONENERGI_HPFP_DES", "fmt": { "len": 16, "max": 3500, "mul": 1.4503773969, "unit": "psi" }, "name": "High pressure fuel pressure desired"}
   ]},
@@ -203,7 +203,7 @@
         }}
     }
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1C"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "FUSIONENERGI_TOT", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
