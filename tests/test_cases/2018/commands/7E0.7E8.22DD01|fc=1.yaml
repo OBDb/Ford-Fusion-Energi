@@ -4,5 +4,8 @@ test_cases:
     FUSIONENERGI_ODO: 152600
   response: 7E80662DD01025418
 - expected_values:
-    FUSIONENERGI_ODO: 152781
-  response: 7E80662DD010254CD
+    FUSIONENERGI_ODO: 153087
+  response: 7E80662DD010255FF
+- expected_values:
+    FUSIONENERGI_ODO: 153088
+  response: 7E80662DD01025600
