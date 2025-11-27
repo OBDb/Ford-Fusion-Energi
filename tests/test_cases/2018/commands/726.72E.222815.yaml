@@ -1,9 +1,9 @@
 command_id: 726.72E.222815
 test_cases:
 - expected_values:
-    FUSIONENERGI_TP_RR: 27.9
-    FUSIONENERGI_TP_RRO: 27.9
-  response: 72E05622815022E
+    FUSIONENERGI_TP_RR: 27.75
+    FUSIONENERGI_TP_RRO: 27.75
+  response: 72E05622815022B
 - expected_values:
     FUSIONENERGI_TP_RR: 32.65
     FUSIONENERGI_TP_RRO: 32.65
