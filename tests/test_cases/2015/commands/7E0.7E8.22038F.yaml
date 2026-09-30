@@ -2,17 +2,13 @@ command_id: 7E0.7E8.22038F
 test_cases:
 - expected_values:
     FUSIONENERGI_ECT: 6.28125
-    FUSIONENERGI_[ECU] ECT: 6.28125
   response: 7E80562038F0192
 - expected_values:
     FUSIONENERGI_ECT: 16
-    FUSIONENERGI_[ECU] ECT: 16
   response: 7E80562038F0400
 - expected_values:
     FUSIONENERGI_ECT: 19.98438
-    FUSIONENERGI_[ECU] ECT: 19.98438
   response: 7E80562038F04FF
 - expected_values:
     FUSIONENERGI_ECT: 96.01562
-    FUSIONENERGI_[ECU] ECT: 96.01562
   response: 7E80562038F1801

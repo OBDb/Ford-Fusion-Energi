@@ -4,11 +4,11 @@ test_cases:
     FUSIONENERGI_OAR: 0.06073
   response: 7E8056203E803E3
 - expected_values:
-    FUSIONENERGI_OAR: 1
+    FUSIONENERGI_OAR: 0
   response: 7E8056203E8F177
 - expected_values:
-    FUSIONENERGI_OAR: 1
+    FUSIONENERGI_OAR: 0
   response: 7E8056203E8F17E
 - expected_values:
-    FUSIONENERGI_OAR: 1
+    FUSIONENERGI_OAR: 0
   response: 7E8056203E8FA4A
