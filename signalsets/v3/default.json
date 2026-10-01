@@ -1,4 +1,7 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" }
+  ],
+  "commands": [
 { "hdr": "720", "dbg": true, "cmd": {"22": "6185"}, "freq": 1,
   "signals": [
     {"id": "FUSIONENERGI_FLI_V2", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel tank level", "suggestedMetric": "fuelTankLevel"}
