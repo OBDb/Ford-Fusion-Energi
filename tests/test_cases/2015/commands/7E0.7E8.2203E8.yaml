@@ -7,8 +7,8 @@ test_cases:
     FUSIONENERGI_OAR: 1
   response: 7E8056203E84000
 - expected_values:
-    FUSIONENERGI_OAR: 1
+    FUSIONENERGI_OAR: 0
   response: 7E8056203E8ECFF
 - expected_values:
-    FUSIONENERGI_OAR: 1
+    FUSIONENERGI_OAR: 0
   response: 7E8056203E8FD2C
