@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22038E
 test_cases:
 - expected_values:
-    FUSIONENERGI_EVAP_V: 5
+    FUSIONENERGI_EVAP_V: 0.805
   response: 7E80562038E0325
 - expected_values:
-    FUSIONENERGI_EVAP_V: 5
+    FUSIONENERGI_EVAP_V: 1.276
   response: 7E80562038E04FC
 - expected_values:
-    FUSIONENERGI_EVAP_V: 5
+    FUSIONENERGI_EVAP_V: 1.536
   response: 7E80562038E0600
