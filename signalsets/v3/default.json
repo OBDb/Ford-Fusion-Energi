@@ -148,7 +148,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038E"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
   "signals": [
-    {"id": "FUSIONENERGI_EVAP_V", "fmt": { "len": 16, "max": 5, "div": 5.0048876, "sign": true, "unit": "volts" }, "name": "Evaporative vapor pressure sensor voltage"}
+    {"id": "FUSIONENERGI_EVAP_V", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Evaporative vapor pressure sensor voltage"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038F"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
   "signals": [
