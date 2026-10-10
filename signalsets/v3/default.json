@@ -72,11 +72,11 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0319"}, "freq": 0.25,
   "signals": [
-    {"id": "FUSIONENERGI_VCT_EXH_ACT", "fmt": { "len": 16, "max": 50, "mul": 0.0625, "unit": "degrees" }, "name": "Vct exhaust camshaft actual"}
+    {"id": "FUSIONENERGI_VCT_EXH_ACT", "fmt": { "len": 16, "max": 50, "min": -50, "div": 16, "sign": true, "unit": "degrees" }, "name": "Vct exhaust camshaft actual"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "031B"}, "freq": 0.25,
   "signals": [
-    {"id": "FUSIONENERGI_VCT_EXH_ERR", "fmt": { "len": 16, "max": 50, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "Vct exhaust camshaft error"}
+    {"id": "FUSIONENERGI_VCT_EXH_ERR", "fmt": { "len": 16, "max": 50, "min": -50, "div": 16, "sign": true, "unit": "degrees" }, "name": "Vct exhaust camshaft error"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "0324"}, "freq": 0.25,
   "signals": [
@@ -124,7 +124,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0318"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
   "signals": [
-    {"id": "FUSIONENERGI_VCT_INT_ACT", "fmt": { "len": 16, "max": 0, "min": -50, "mul": 0.0625, "unit": "degrees" }, "name": "Vct intake camshaft actual"}
+    {"id": "FUSIONENERGI_VCT_INT_ACT", "fmt": { "len": 16, "max": 50, "min": -50, "div": 16, "sign": true, "unit": "degrees" }, "name": "Vct intake camshaft actual"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "031A"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
   "signals": [
