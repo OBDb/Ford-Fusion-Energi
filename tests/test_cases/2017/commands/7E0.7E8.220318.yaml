@@ -4,8 +4,8 @@ test_cases:
     FUSIONENERGI_VCT_INT_ACT: 0
   response: '7E8056203180000'
 - expected_values:
-    FUSIONENERGI_VCT_INT_ACT: 0
+    FUSIONENERGI_VCT_INT_ACT: -32.0625
   response: 7E805620318FDFF
 - expected_values:
-    FUSIONENERGI_VCT_INT_ACT: 0
+    FUSIONENERGI_VCT_INT_ACT: -16
   response: 7E805620318FF00
