@@ -215,7 +215,7 @@
   ]},
 { "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "DD05"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
   "signals": [
-    {"id": "FUSIONENERGI_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Exterior temperature"}
+    {"id": "FUSIONENERGI_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Exterior temperature"}
   ]},
 { "hdr": "7E6", "rax": "7EE", "fcm1": true, "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
   "signals": [
