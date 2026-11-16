@@ -140,7 +140,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0353"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
   "signals": [
-    {"id": "FUSIONENERGI_BARO", "fmt": { "len": 16, "max": 20, "min": 8, "div": 27.582114, "unit": "psi" }, "name": "Barometric pressure"}
+    {"id": "FUSIONENERGI_BARO", "fmt": { "len": 16, "max": 20, "min": 8, "div": 27.582114, "unit": "psi" }, "name": "Barometric pressure", "suggestedMetric": "barometricPressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "035F"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016], "from": 2019 },
   "signals": [
